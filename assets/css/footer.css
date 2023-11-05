@@ -1,6 +1,6 @@
-*{
+/* *{
     outline: 2px solid red;
-}
+} */
 
 /* img{
     width: 30%; */
@@ -30,7 +30,7 @@
 
 .column-cards{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: stretch;
 
 }
 
@@ -38,7 +38,13 @@
     max-width: 32%;
     display: flex;
     flex-direction: column;
+    justify-content:stretch ;
+    align-content: center;
 
+}
+
+.column-card>img{
+    width: 100%;
 }
 
 .signup-img{
@@ -46,5 +52,5 @@
 }
 
 .bottom-img{
-    width: 70vw;
+    width: 80vw;
 }
